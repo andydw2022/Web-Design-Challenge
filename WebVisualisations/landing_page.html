@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Design Homework</title>
+  <!-- Bring in our bootstrap stylesheet -->
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h1><a class="nav-link" href="/Web-Design-Challenge/WebVisualisations/landing_page.html">Latitude</h1>
+      </div>
+      <div class="col-sm-2">
+        <a></a>
+      </div>
+      <div class="col-sm-2">
+        <a></a>
+      </div>
+      <div class="col-sm-3">
+        <nav class="compnavbar navbar-expand-lg navbar-light bg-light">
+          <!-- Toggler/collapsibe Button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="/Web-Design-Challenge/WebVisualisations/landing_page.html">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Web-Design-Challenge/WebVisualisations/comparisons.html">Comparisons</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Plots
+                </a>
+                <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="/Web-Design-Challenge/WebVisualisations/temperature.html">Temperature</a>
+                  <a class="dropdown-item" href="/Web-Design-Challenge/WebVisualisations/humidity.html">Humidity</a>
+                  <a class="dropdown-item" href="/Web-Design-Challenge/WebVisualisations/windspeed.html">WindSpeed</a>
+                  <a class="dropdown-item" href="/Web-Design-Challenge/WebVisualisations/cloudiness.html">Cloudiness</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Web-Design-Challenge/WebVisualisations/data.html">Data</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="col-md-6">
+      <div class="row">
+       
+        <br>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="col-md-12">
+          <h4>Summary: Latitude vs. X</h4>
+          <br>
+          <section id="main-bio">
+            <section id="figure">
+              <img id="bio-image" src="/Web-Design-Challenge/WebVisualisations/Resources/assets/images/temperature.png"
+                alt="Temp">
+            </section>
+            <p>The purpose of this project was to analyze how weather changes
+              as you get closer to the equator. To accomplish this analysis, we first pulled
+              data from the OpenWeatherMapAPI to assemble a dataset of over 500 cities.
+              <br>
+              <br>
+              After assembling the dataset, we used MatplotLib to plot various aspects
+              of weather vs latitude. Factors we looked at included: temperature, cloudiness, wind speed
+              and humidity. This site provides the source data and visualisations created as part of the
+              analysis, as well as explanations and descriptions of any trends and correlations witnessed
+            </p>
+            <br>
+          </section>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>Visualizations</h4>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="thumbnail">
+              <a target="_blank" href="/Web-Design-Challenge/WebVisualisations/temperature.html">
+                <img src="/Web-Design-Challenge/WebVisualisations/Resources/assets/images/temperature.png" alt="Temp"
+                  class="img-thumbnail">
+              </a>
+            </div>
+            <div class="caption">
+              <h6>Latitude vs Temperature</h6>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="thumbnail">
+              <a target="_blank" href="/Web-Design-Challenge/WebVisualisations/humidity.html">
+                <img src="/Web-Design-Challenge/WebVisualisations/Resources/assets/images/humidity.png" alt="Humidity"
+                  class="img-thumbnail">
+              </a>
+            </div>
+            <div class="caption">
+              <h6>Latitude vs Humidity</h6>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="thumbnail">
+              <a target="_blank" href="/Web-Design-Challenge/WebVisualisations/windspeed.html">
+                <img src="/Web-Design-Challenge/WebVisualisations/Resources/assets/images/windspeed.png" alt="Windspeed"
+                  class="img-thumbnail">
+              </a>
+            </div>
+            <div class="caption">
+              <h6>Latitude vs Wind Speed</h6>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="thumbnail">
+              <article>
+                <a target="_blank" href="/Web-Design-Challenge/WebVisualisations/cloudiness.html">
+                  <img src="/Web-Design-Challenge/WebVisualisations/Resources/assets/images/cloudiness.png" alt="Cloudiness"
+                    class="img-thumbnail">
+                </a>
+              </article>
+            </div>
+            <div class="caption">
+              <h6>Latitude vs Cloudiness</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+
+</body>
+
+</html>
