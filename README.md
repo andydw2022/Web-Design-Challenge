@@ -2,23 +2,14 @@
 
 url= https://andydw2022.github.io/Web-Design-Challenge
 
-This homework is composed of the following folders and files. 
+This homework is composed of the following folders and files: 
 Note there are two images folders as that was how it was laid out in the Boot Camp Repo Homework folder
 
-WebVisualisations Folder
-    cloudiness.html
-    comparisons.html
+WebVisualisations Folder contains 
+    .html pages
     convert_cities_to_html.ipynb
-    data.html
-    humidity.html
-    Images
-    landing_page.html
-    README.md
-    reset.css
-    styles.css
-    temperature.html
-    windspeed.html
-
+    .css style sheets
+   
     Images Folder
        comparison-lg.png
        comparison-sm.png
