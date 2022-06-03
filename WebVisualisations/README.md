@@ -1,6 +1,6 @@
 # Web Design Challenge : Latitude Weather Analysis
 
-url= https://andydw2022.github.io/
+url= https://andydw2022.github.io/WebVisualisations
 
 This homework is composed of the following folders and files:
 
@@ -17,7 +17,7 @@ WebVisualisations Folder
     styles.css
     temperature.html
     windspeed.html
-|
+
     Images Folder
        comparison-lg.png
        comparison-sm.png
@@ -30,7 +30,6 @@ WebVisualisations Folder
        visualize-lg.png
        visualize-sm.png
     Resources Folder
-   
 
     assets Folder
       cities.csv

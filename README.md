@@ -1,8 +1,9 @@
 # Web Design Challenge : Latitude Weather Analysis
 
-url= https://andydw2022.github.io/
+url= https://andydw2022.github.io/Web-Design-Challenge
 
-This homework is composed of the following folders and files:
+This homework is composed of the following folders and files. 
+Note there are two images folders as that was how it was laid out in the Boot Camp Repo Homework folder
 
 WebVisualisations Folder
     cloudiness.html
@@ -17,7 +18,7 @@ WebVisualisations Folder
     styles.css
     temperature.html
     windspeed.html
-|
+
     Images Folder
        comparison-lg.png
        comparison-sm.png
@@ -30,7 +31,6 @@ WebVisualisations Folder
        visualize-lg.png
        visualize-sm.png
     Resources Folder
-   
 
     assets Folder
       cities.csv
@@ -42,7 +42,7 @@ WebVisualisations Folder
         temperature.png
         windspeed.png
 
-|
+
 1. Juypter Notebook : convert_cities_to_html.ipynb which contains code to read in the file Resources\cities.csv 
    in csv format, convert it to a pandas dataframe , list it to check for missing data then create a html file 
    Resources\cities_data.html file from the dataframe. This file will then be read into the data.html page to display all
